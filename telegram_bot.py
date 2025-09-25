@@ -11,7 +11,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Define your bot token here
-TOKEN = "7258588708:AAH0GFbjjWzFjXauhPj0ux1W4Yi-dYd0PYY"
+TOKEN = "BOT_TOKEN"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
@@ -87,3 +87,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
